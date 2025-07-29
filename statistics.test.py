@@ -12,9 +12,9 @@ class StatsTest(unittest.TestCase):
 
   def test_avg_is_nan_for_empty_input(self):
     computedStats = statistics.calculateStats([])
-    self.assertAlmostEqual(math.isnan(computedStats["avg"])
-    self.assertAlmostEqual(math.isnan(computedStats["Max"])
-    self.assertAlmostEqual(math.isnan(computedStats["Min"])
+    self.assertAlmostEqual(math.isnan(computedStats['nan'])
+    self.assertAlmostEqual(math.isnan(computedStats['nan'])
+    self.assertAlmostEqual(math.isnan(computedStats['nan'])
 
 
 if __name__ == "__main__":
